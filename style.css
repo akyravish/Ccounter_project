@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300;400&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #e93b81;
+	color: #fff;
+	font-family: 'Roboto Mono', monospace;
+	display: flex;
+	height: 100vh;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden; /* Use to hide the scrool bar */
+}
+
+.counter-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 30px 50px;
+	text-align: center;
+}
+
+.counter {
+	font-size: 50px;
+	margin: 10px;
+}
+
+@media screen and (max-width: 700px) {
+	body {
+		flex-direction: column;
+	}
+}
